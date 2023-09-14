@@ -323,6 +323,7 @@ section .title::before {
 
 .productCard:hover {
     box-shadow: 0 0 0 1px #09a5df;
+    /* border: 1px solid #09a5df; */
 }
 
 .productCard figure {
@@ -783,3 +784,44 @@ font-weight: 500;
     margin-top: 35px;
 }
 /* !@Partners Page */
+
+
+
+.productsection {
+    padding: 70px 0 120px;
+}
+.featured-section .products-content{
+    margin-top: 40px;
+}
+.dropdown img{
+    width: 5vw;
+    max-height: 50px;
+    object-fit: contain;
+}
+.dropbtn{
+    border: 1px solid #011453 !important;
+}
+.productCard1 .card-body .btn {
+    opacity: 0;
+    transform: translateY(10%);
+    transition: 0.3s ease;
+}
+
+
+
+.top-image{
+    /* margin-top: -6%;
+    margin-right: -30%; */
+    /* position: absolute;
+    top: 0%;
+    bottom: 0%; */
+}
+.contact-loc{
+    border-bottom: 1px solid white;
+}
+.contact-loc a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+}
+
